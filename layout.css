@@ -1,0 +1,90 @@
+/*-----------------布局------------------*/
+/* 所有的标签 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html & body */
+
+body{
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* 导航器 */
+header{
+    height:61px;
+    position: relative;
+    border:solid;
+    border-width: thin;
+}
+#logo{
+    width: 110px;
+    height: 61px;
+    margin-left: 44px;
+
+}
+/*搜索栏*/
+#search{
+    width: 424px;
+    height: 41px;
+    position: absolute;
+    left:150px;
+    top:10px;
+    border:solid;
+    border-width: thin;
+    border-radius: 20px;
+}
+
+/*导航链接*/
+header nav{
+    height: 61px;
+    position: absolute;
+    top:0;
+    right:10px;
+}
+
+/* 子模块统一样式 */
+.module{
+    width: 960px;
+    height: 600px;
+    border:solid;
+    border-width: thin;
+    margin-top: 20px;
+    position: relative;
+}
+.name{
+    padding: 5px;
+    position: absolute;
+    top:-15px;
+    left:40px;
+    background-color: white;
+}
+
+/* 校组织 */
+#SchoolUnion{
+
+}
+
+
+/* 学生组织 */
+#StudentUnion{
+
+}
+
+/* 学生社团 */
+#StudentGroup{
+
+}
+
+/* 页脚部分 */
+footer{
+    width: 960px;
+    padding: 10px;
+    border:solid;
+    border-width: thin;
+    margin-top: 20px;
+    text-align: center;
+}

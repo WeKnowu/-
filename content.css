@@ -1,0 +1,48 @@
+/*-----------------内容------------------*/
+/* 所有的标签 */
+
+/* html & body */
+
+/* 导航器 */
+header{
+
+}
+#logo{
+    line-height: 61px;
+}
+#search{
+    line-height: 41px;
+}
+#search p{
+    margin-left:5px;
+}
+header nav{
+    line-height: 61px;
+}
+header nav a{
+    text-decoration: none;
+}
+
+/* 子模块统一样式 */
+.module{
+
+}
+.name{
+
+}
+
+/* 校组织 */
+#SchoolUnion{
+
+}
+
+
+/* 学生组织 */
+#StudentUnion{
+
+}
+
+/* 学生社团 */
+#StudentGroup{
+
+}
