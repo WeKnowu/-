@@ -13,8 +13,17 @@ header{
 #search{
     line-height: 41px;
 }
+#search #icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    background-image: url("images/Search_24px_1166483_easyicon.net.ico");
+}
+
 #search p{
-    margin-left:5px;
+    margin-left:35px;
 }
 header nav{
     line-height: 61px;
