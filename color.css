@@ -1,1 +1,75 @@
 /*-----------------颜色------------------*/
+/* 所有的标签 */
+
+/* html & body */
+
+/* 导航器 */
+header{
+    background-color: rgb(102,153,255);
+}
+#logo{
+
+}
+#search{
+    background-color: rgb(225,234,242);
+    color: rgb(141, 155, 168);
+}
+#search #icon{
+
+}
+
+#search p{
+
+}
+header nav{
+
+}
+header nav a{
+
+}
+
+/* 子模块统一样式 */
+.module{
+
+}
+.name{
+
+}
+
+/* 校组织 */
+#SchoolUnion{
+
+}
+
+
+/* 学生组织 */
+#StudentUnion{
+
+}
+
+/* 学生社团 */
+#StudentGroup{
+
+}
+#StudentGroup h2{
+    color: white;
+}
+#box1{ background: #0288D1;}
+#box2{ background: #03A9F4; }
+#box3 { background: #B3E5FC;  }
+#box3 h2{
+    color: #20292E;
+}
+#box4 { background: #FAFAFA; }
+#box4 h2{
+    color: #20292E;
+}
+#box5 { background: #00BCD4; }
+#box6 { background: #212121; }
+#box7{ background: #757575; }
+#box8 { background: #BDBDBD; }
+
+/* 页脚 */
+footer{
+    background: #F2F2F2;
+}
