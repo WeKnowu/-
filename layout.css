@@ -9,16 +9,14 @@
 /* html & body */
 
 body{
-    margin: 0 auto;
-    width: 960px;
+    width: 1347px;
 }
 
 /* 导航器 */
 header{
+    width: 1347px;
     height:61px;
     position: relative;
-    border:solid;
-    border-width: thin;
 }
 #logo{
     width: 110px;
@@ -38,37 +36,52 @@ header{
     border-radius: 20px;
 }
 
+
 /*导航链接*/
 header nav{
     height: 61px;
     position: absolute;
     top:0;
-    right:10px;
+    right:84px;
+}
+header nav a{
+    margin-right: 46px;
 }
 
 /* 子模块统一样式 */
 .module{
-    width: 960px;
+    width: 1219px;
     height: 600px;
-    border:solid;
+    border-top:solid;
     border-width: thin;
+    border-color: rgb(77,130,250);
     margin-top: 20px;
+    margin-left: 64px;
+    margin-right: 64px;
     position: relative;
 }
 .name{
-    padding: 5px;
+    padding: 0 10px 0 10px;
     position: absolute;
     top:-15px;
-    left:40px;
+    left:580px;
     background-color: white;
 }
 
 /* 校组织 */
-#SchoolUnion{
-
+#SchoolUnion{            /*flex布局*/
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
 }
-
-
+#SchoolUnion .school{
+    margin: 47px 32px 0 32px;
+}
+#SchoolUnion figcaption{
+    width: 180px;
+    margin-top: 10px;
+    text-align: center;
+}
 /* 学生组织 */
 #StudentUnion{
 
@@ -76,15 +89,26 @@ header nav{
 
 /* 学生社团 */
 #StudentGroup{
-
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#StudentGroup .classification1{
+    width:304px ;
+    height: 293px;
+    margin-top: 20px;
+}
+#StudentGroup .classification2{
+    width:304px ;
+    height: 293px;
+    margin-top: -10px;
 }
 
 /* 页脚部分 */
 footer{
-    width: 960px;
+    width: 1347px;
     padding: 10px;
-    border:solid;
     border-width: thin;
-    margin-top: 20px;
     text-align: center;
 }
